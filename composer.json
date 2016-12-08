@@ -1,18 +1,17 @@
 {
-    "name": "finwo/debug",
-    "description": "Debug tools by finwo",
-    "authors": [
-        {
-            "name": "Robin Bron",
-            "email": "robin@finwo.nl"
-        }
-    ],
-    "autoload": {
-        "psr-4": { "Finwo\\Debug\\": "src" },
-        "files": [
-            "src/init.php"
-        ]
+  "name": "finwo/debug",
+  "description": "Debug tools by finwo",
+  "authors": [
+    {
+      "name": "Robin Bron",
+      "email": "robin@finwo.nl"
     }
-    "minimum-stability": "stable",
-    "require": {}
+  ],
+  "autoload": {
+    "psr-4": {
+      "Finwo\\Debug\\": "src"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {}
 }
